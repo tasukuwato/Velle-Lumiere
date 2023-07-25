@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="icon" href="images/logo_4.ico">
+    <title>Wato's page | Univ Student</title>
+    <style>
+	    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+	    
+	    body {background-color: #fff; color: #fff; font-family: 'Inter', sans-serif;}
+	    a {color: #333;}
+	    a:hover {color: #0093cb; -o-transition:.5s; -ms-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s; transition:.5s;}
+	    h1 {font-size: 38px; font-family: serif; font-weight: normal; line-height: 44px; color: #333; max-width: 800px;}
+	    
+	    .navbar {padding: 40px 15px; text-transform: uppercase; color: #eee; letter-spacing: 2px;}
+	    .navbar a.nav-link {color: #333 !important; font-size: 12px; border-bottom: 2px solid transparent;}
+	    .navbar a.nav-link:hover {color: #333; border-bottom: 2px solid #333;}
+	    li.nav-item {padding: 0px 10px;}
+	    
+	    a.navbar-brand {color: #333 !important; letter-spacing: 2px; cursor: hand; -o-transition:.5s; -ms-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s; transition:.5s;}
+	    a.navbar-brand:hover {color: #666; cursor: hand;}
+
+	    .intro {padding: 120px 0px 90px 0px;}
+	    
+	    .image-slab {height: 550px; display: block; background-size: cover; background-position: center center; margin: 15px 0px}
+	    
+	    .image-slab a {opacity: 0; display: block; position: absolute; min-height: 100%;}
+	    .image-slab a:hover {opacity: 1; display: block; position: absolute; min-height: 100%;}
+	    .image-slab h3 {position: absolute; bottom: 0px; color: #fff; padding: 45px 40px; text-transform: uppercase; font-weight: normal; letter-spacing: 2px; font-size: 16px;}
+
+		.about {padding: 120px 0px;}    
+		.about p {font-size: 14px; line-height: 24px; color: #333; padding-right: 30px;}
+			    
+		p.hello {		  
+		border-bottom: 2px solid #333;
+		color: #333;
+		font-size: 13px;
+		margin: 30px auto;
+		padding: 10px 0px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		display: inline-block;}
+		
+		.about p.about-intro {font-family: serif; font-size: 28px; max-width: 700px;}
+	    
+	    p.sub {font-size: 11px; text-transform: uppercase; letter-spacing:  1px; color: #fff; position: absolute; bottom: 0px; padding: 20px 40px;}
+	    
+		.image-slab:hover a {
+		    width:100%;
+		    height:100%;
+		    background:rgba(0,0,0,.5);
+		    position:absolute;
+		    top:0;
+		    left:0;
+		    display:inline-block;
+		    -webkit-box-sizing:border-box;
+		    -moz-box-sizing:border-box;
+		    box-sizing:border-box;}
+		
+
+		
+		input[type=text], input[type=email] {
+		  width: 100%;
+		  padding: 20px 10px;
+		  box-sizing: border-box;
+		  border: 1px solid #777;
+		  background-color: transparent;
+		  border-radius: 2px;
+		  color: #333;
+		  text-transform: uppercase;
+		  letter-spacing: 1px;
+		}
+		
+		textarea.form-control {
+		  width: 100%;
+		  height: 140px;
+		  padding: 10px 10px;
+		  box-sizing: border-box;
+		  border: 1px solid #777;
+		  border-radius: 2px;
+		  background-color: transparent;
+		  resize: none;
+		  color: #333;
+		}
+		
+		input[type=submit] {
+		  padding: 10px 0px;
+		  box-sizing: border-box;
+		  border: none;
+		  background-color: transparent;
+		  border-bottom: 2px solid #333;
+		  color: #333;
+		  margin: 30px auto;
+		  text-transform: uppercase;
+		  letter-spacing: 2px;
+		  display: block;
+		}
+		
+		input:focus, textarea.form-control:focus, input.form-control:focus {
+		    outline: none;
+		    border: none;
+		    border: 1px solid #333;
+		    background-color: transparent;
+		}
+		
+		.navbar-dark .navbar-toggler {border: none;}
+
+		label {font-size: 12px; color: #333; text-transform: uppercase; letter-spacing: 1px; margin-top: 30px;}
+		
+		
+		footer {padding: 40px 0px; text-transform: uppercase; letter-spacing: 2px;}
+		footer .container {border-top: 2px solid rgba(144,130,109,.2); color: #999; padding: 20px 0px; font-size: 10px;}
+
+	@media only screen and (max-width: 768px) {
+	
+	  .image-slab {height: 350px;}
+
+	}
+	    
+	</style> 
+    
+    
+  </head>
+  <body>
+
+	<nav class="navbar navbar-expand-lg container navbar-dark">
+	  <a class="navbar-brand" href="/">Wato Tasuku Achievements/Activities</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  	<ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#about">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	  
+    <section>
+	    <div class="container">	  
+		    <div class="intro row">
+				<div class="col-sm">
+					<p class="hello">Hello Everyone</p>
+					<h1>I'm Life is tech! Movie Mentor</h1>
+				</div>
+		    </div>
+			
+			<div class="row">
+				<div class="col-sm">
+					<div class="image-slab" style="background-image: url('images/Product.jpg')">
+						<a href="#">
+							<h3>Products</h3>
+							<p class="sub">Coming Soon.</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<div class="image-slab" style="background-image: url('images/Lit.jpg')">
+						<a href="#">
+							<h3>Life is tech!</h3>
+							<p class="sub">Coming Soon.</p>
+						</a>						
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="row">
+				<div class="col-sm">
+					<div class="image-slab" style="background-image: url('images/Achievement.jpg')">						
+						<a href="#">
+							<h3>Achievements</h3>
+							<p class="sub">Coming Soon.</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<div class="image-slab" style="background-image: url('images/Activities.jpg')">
+						<a href="#">
+							<h3>Activities</h3>
+							<p class="sub">Coming Soon.</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			
+				
+			</div>
+	    </div>				
+    </section>
+    
+    <section id="about" class="about">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-12">
+					<p class="hello">About</p>
+			    </div>
+			    
+			    <div class="col-12">
+				    <p class="about-intro">Tasuku Wato</p>
+			    </div>
+				<div class="col-md-8 col-sm-12">
+					<p>Meijo univ B2</p>
+					<p>Information Engineering</p>
+                    <p>Life is tech! mentor</p>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+    
+    
+    <section id="contact">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-12">
+					<p class="hello">Get in Touch</p>
+			    </div>
+			    
+			    <div class="col-md">	   
+				    					<form method="post" action="index.php">
+						<div class="form-row">
+							<div class="col-6">
+								<label>Name:</label>
+								<input type="text" name="sender" class="form-control">
+							</div>
+							<div class="col-6">
+								<label>Email address:</label>
+								<input type="email" name="senderEmail" class="form-control">
+							</div>
+							<div class="col-12">
+								<label>About your Project:</label>
+								<textarea rows="3" cols="20" name="message" class="form-control"></textarea>
+							</div>
+							
+							<div class="col-12">
+								<input type="submit" name="submit">
+							</div>
+						</div>
+				    </form>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+    
+    <footer>
+	    <div class="container">
+		    <p class="copy">&copy; 2023 Wato Tasuku / All Rights Reserved</p>
+	    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-42899893-1', 'mikeinghamdesign.com');
+	  ga('send', 'pageview');
+	</script>
+  </body>
+</html>
